@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录页面</title>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/base.css"/>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/account.css"/>
+		<script src="/javascripts/third-party/focus/jquery-1.11.3.min.js"></script>
+		<style type="text/css">
+			body{background-color: #ddd; /*background-image: url(../../public/img/marriage/N00385-0015.jpg)*/;background-repeat: no-repeat;background-size: 100% 100%;opacity: 0.8;}
+		</style>
+	</head>
+	<body>
+		<div class="zw-login clearfix">
+			<form action="/account/login/" method="post">
+				<ul>
+					<li>
+						<span class="prompt">email：</span>
+						<input type="text" name="email" placeholder="请输入email" />
+					</li>
+					<li>
+						<span class="prompt">密   &nbsp; 码：</span>
+						<input type="text" name="pwd" placeholder="请输入密码" />
+					</li>
+					<li>
+						<input type="hidden" name="subflag" value="1" />
+						<button class="zw-login-submit" type="submit">登录</button>
+					</li>
+				</ul>
+			</form>
+			<div style="margin-left: 72px;">
+				没有账号？ <a style="color: #ff5256;" href="/account/regist" target="_blank">注册</a>
+			</div>
+		</div>
+		<% if(!isLoginSuccess){ %>
+			<script>alert('用户名或者密码错误！！！')</script>
+		<% } %>
+	</body>
+	<script>
+//		$(function(){
+//			var bodyclient = document.documentElement.clientHeight;
+//			$('body').css({'background-size':'100% '+ bodyclient+'px'});
+//		});
+	</script>
+</html>

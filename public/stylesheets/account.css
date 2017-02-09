@@ -1,0 +1,30 @@
+/* login start */
+.zw-login{width: 1200px;margin: 0 auto;text-align: center;margin-top: 10%;height: 100%;}
+.zw-login .prompt{width: 80px;display: inline-block;font-size: 18px;}
+.zw-login li{margin-bottom: 20px;}
+.zw-login li input{padding: 8px 5px;width: 200px;border: 1px solid #ddd;color: #666;}
+.zw-login-submit{padding: 5px 20px;background: #ff5256;color: #fff;margin-left: 70px;border-radius: 3px;cursor: pointer;}
+.zw-login-submit:hover{background: #FF5052;}
+.zw-login li input:focus{
+	transition:border linear .2s,box-shadow linear .2s;
+	-moz-transition:border linear .2s,-moz-box-shadow linear .2s;
+	-webkit-transition:border linear .2s,-webkit-box-shadow linear .2s;
+	border-color:#E67275;
+	box-shadow:0 0 8px #E67275;
+	-moz-box-shadow:0 0 8px #E67275;
+	-webkit-box-shadow:0 0 8px #E67275;
+}
+/* login end */
+
+/* regist start */
+.sq-info{width: 1180px;margin: 0 auto;text-align: center;background: #fff;padding:50px 0 40px 0;}
+.sq-info input{width: 400px;height: 40px;border: 1px solid #ddd;padding-left: 10px;margin-bottom: 20px;font-size: 14px;}
+.sq-info .prompt:before{content: '*';font-size: 20px;color: #ff686d;position: relative;top: 5px;}
+.sq-info textarea{width: 400px;height: 150px;border: 1px solid #ddd;padding-left: 10px;font-size: 14px;vertical-align: top;padding-top: 10px;font-family: "microsoft yahei";}
+.sq-info .prompt{font-size: 16px;color: #333;display: inline-block;width: 85px;text-align: right;margin-right: 10px;}
+.sq-info .submit{cursor: pointer;display: inline-block;width: 150px;height: 40px;line-height: 40px;font-size: 16px;background: #ff5256;color: #fff;border-radius: 4px;border: none;margin-top: 20px;margin-left: 80px;}
+.sq-info .prompt-info:before{content: '';}
+.send-code{display: inline-block;height: 30px;line-height: 30px;padding: 0 8px;border-radius: 2px;background: #FF5256;color: #fff;font-size: 14px;position: absolute;right: 342px;top: 6px;border: none;}
+.send-code:hover{color: #fff;cursor: pointer;}
+.layer-apply-open .layui-layer-btn{padding-bottom: 25px;}
+/* regist end */

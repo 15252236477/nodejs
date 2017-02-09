@@ -1,0 +1,49 @@
+{
+  "code": 0
+  ,"msg": ""
+  ,"data": {
+    "mine": {
+      "username": "纸飞机"
+      ,"id": "216"
+      ,"status": "online"
+      ,"sign": "在深邃的编码世界，做一枚轻盈的纸飞机"
+      ,"avatar": "http://cdn.firstlinkapp.com/upload/2016_6/1465575923433_33812.jpg"
+    }
+    ,"friend": [{
+      "groupname": "圈主群"
+      ,"id": 1
+      ,"online": 2
+      ,"list": [{
+        "username": "证券娱乐圈"
+        ,"id": "100001"
+        ,"online": false
+        ,"avatar": "http://tp1.sinaimg.cn/1571889140/180/40030060651/1"
+        ,"sign": "我是证券娱乐圈证券娱乐圈"
+      },{
+        "username": "港股掘金圈"
+        ,"id": "108101"
+        ,"online": true
+        ,"avatar": "http://tva3.sinaimg.cn/crop.0.0.512.512.180/8693225ajw8f2rt20ptykj20e80e8weu.jpg"
+        ,"sign": "微电商达人"
+      },{
+        "username": "飞鱼"
+        ,"id": "102101"
+        ,"online": true
+        ,"avatar": "http://tp2.sinaimg.cn/1833062053/180/5643591594/0"
+        ,"sign": ""
+      }]
+    }]
+    ,"svmessage": [
+        {
+            "username": "小秘书",
+            "id": 999998,
+            "avatar": "http://tp1.sinaimg.cn/1571889140/180/40030060651/1"
+        },
+        {
+            "username": "系统消息",
+            "id": 999999,
+            "avatar": "http://tp1.sinaimg.cn/1571889140/180/40030060651/1"
+        }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/base.css"/>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/account.css"/>
+		<!--<script src="/javascripts/third-party/focus/jquery-1.11.3.min.js"></script>-->
+	</head>
+<body>
+	<div class="sq-info" id="goto-apply">
+		<form action="/account/regsubmit/" method="post" id="J-form-submit">
+			<ul>
+				<li>
+					<span class="prompt">email : </span>
+					<input name="email" placeholder="请输入您的email" />
+				</li>
+				<li>
+					<span class="prompt">昵称 : </span>
+					<input name="nicheng" placeholder="请输入您的昵称" />
+				</li>
+				<li>
+					<span class="prompt">密码 : </span>
+					<input name="pwd" placeholder="请输入您的密码" />
+				</li>
+				<li>
+					<span class="prompt prompt-info">个人简介 :</span>
+					<textarea name="desc" placeholder="请输入您的个人简介"></textarea>
+				</li>
+				<li>
+					<button type="submit" id="J-apply-submit" class="submit">提交</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+	<% if (tipMsg==''){ %>
+		<script type="text/javascript"></script>
+	<% }else if(tipMsg=='hasEmail'){ %>
+		<script type="text/javascript">alert('已经有email了');</script>
+	<% }else if(tipMsg=='hasNicheng'){ %>
+		<script type="text/javascript">alert('已经有昵称了');</script>
+    <% }else if(tipMsg=='otherError'){ %>
+    	<script type="text/javascript">alert('发生其他错误');</script>
+    <% } %>
+
+	<!--<div id="J-submit-success" style="height: 120px;text-align: center;font-size: 14px;font-family: 'microsoft yahei';color: #707070;display: none;">
+	    <img src="" style="height: 50px;margin: 20px 0;">
+	    <div>
+	        	您的资料提交成功，将在7个工作日内完成审核，请耐心等待...
+	    </div>
+	</div>-->
+</body>
+
+</html>

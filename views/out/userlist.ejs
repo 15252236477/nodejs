@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title><%= title %></title>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/style.css"/>
+		<script src="/javascripts/third-party/focus/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+		<div>
+			欢迎你：<%= name %><br />
+			我的年龄：<%= age %><br />
+			show显示：<%- show %><br />
+		</div>
+		
+		<form action="/users/userlist/" method="get">
+			<input name="uname" value="<%= name %>" />
+			<button type="submit">提交</button>
+		</form>
+	</body>
+</html>
